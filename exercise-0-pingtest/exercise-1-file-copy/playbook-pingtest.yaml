@@ -1,0 +1,6 @@
+- 
+  name: CHeck connectivity to targe servers
+  hosts: all
+  tasks:
+    - name: Ping test
+      ping:
